@@ -17,9 +17,6 @@ const HeroSection = () => {
               We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
             </h1>
             <Button href="https://www.youtube.com">GET FREE CONSULTATION</Button>
-            {/* <button className="mt-4 px-6 py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600">
-              GET FREE CONSULTATION
-            </button> */}
           </div>
         </div>
       </div>
