@@ -20,14 +20,12 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="px-6 md:hidden py-6 flex justify-center w-full bg-gradient-to-r from-teal-500 to-blue-500 text-white">
+      <div className="px-6 md:hidden py-6 flex justify-center w-full bg-gradient-to-r from-[#4DCA79] to-[#1CBDDD] text-white">
         <div className="p-6 w-full text-left">
           <h1 className="text-4xl font-bold mb-4">
             We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
           </h1>
-          <button className="mt-4 px-6 py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600">
-            GET FREE CONSULTATION
-          </button>
+          <Button>GET FREE CONSULTATION</Button>
         </div>
       </div>
     </section>

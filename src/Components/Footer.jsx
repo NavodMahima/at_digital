@@ -43,7 +43,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div className="flex justify-between">
+          <div className="flex gap-28 lg:justify-between">
             <div>
               <h3 className="text-lg font-medium mb-4">Our Technologies</h3>
               <ul className="space-y-2">

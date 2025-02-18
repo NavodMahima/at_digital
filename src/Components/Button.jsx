@@ -7,7 +7,7 @@ const Button = ({ children, onClick, className = "", href }) => {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-block px-6 py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition duration-300 ${className}`}
+        className={`inline-block px-6 py-3 bg-[#F28D35] text-white font-semibold rounded hover:bg-orange-600 transition duration-300 ${className}`}
       >
         {children}
       </a>
@@ -16,7 +16,7 @@ const Button = ({ children, onClick, className = "", href }) => {
 
   return (
     <button
-      className={`px-6 py-3 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition duration-300 ${className}`}
+      className={`px-6 py-3 bg-[#F28D35] text-white font-semibold rounded hover:bg-orange-600 transition duration-300 ${className}`}
       onClick={onClick}
     >
       {children}

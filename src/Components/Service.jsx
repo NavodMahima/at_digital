@@ -7,11 +7,11 @@ import Title from "./Title";
 const ServiceSection = () => {
     return (
         <>
-            <div className="w-full px-6 mt-0 md:px-16 lg:px-24 py-12">
-                <div className="flex flex-col md:flex-row items-center md:items-center md:justify-between gap-6">
+            <div className="w-full mt-5 px-6 md:px-16 lg:px-24">
+                <div className="flex flex-col md:flex-row items-center md:items-center md:justify-between">
 
                     <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-                        <img src={serviceImage} alt="Service" className="w-3/4 md:w-full h-auto" />
+                        <img src={serviceImage} alt="Service"/>
                     </div>
 
                     <div className="w-full md:w-1/2 text-center md:text-left">
@@ -24,7 +24,7 @@ const ServiceSection = () => {
                 </div>
             </div>
 
-            <div className="w-full px-6 mt-0 md:px-6 lg:px-24 py-6">
+            <div className="w-full px-6 mt-5 md:px-6 lg:px-24 py-6">
                 <div className="flex flex-col md:flex-row items-center md:items-center md:justify-between gap-6">
 
                 <div className="w-full md:w-1/2 text-center md:text-left sm:flex-row-reverse">
@@ -36,7 +36,7 @@ const ServiceSection = () => {
                     </div>
 
                     <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-                        <img src={serviceImage1} alt="Service" className="w-3/4 md:w-full h-40px" />
+                        <img src={serviceImage1} alt="Service"/>
                     </div>
                 </div>
             </div>
